@@ -102,7 +102,7 @@ display: none;
 
 @media (max-width: 700px){
     .text-box h1{
-        font-size: 20px;
+        font-size: 40px;
     }
     .nav-links ul li{
         display: block;
@@ -136,12 +136,45 @@ display: none;
         padding: 30px;
     }
 }
+
+/* FILOSOFIA */
+.filosofia{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #8C4C27;
+    
+}
+.filosofia h1{
+    color: #733C1D;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Caveat', cursive;
+}
+.filosofia p{
+    color: #8C4C27;
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 22px;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+@media (max-width:700px){
+    .filosofia{
+        flex-direction: column;
+    }
+}
+
 /* PILARES */
 .pilar{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-top: 50px;
+    border-bottom: 1px solid #8C4C27;
 }
 .pilar h1{
     color: #733C1D;
@@ -193,6 +226,5 @@ display: none;
 @media (max-width:700px){
     .row{
         flex-direction: column;
-        
     }
 }
