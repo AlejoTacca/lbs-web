@@ -2,17 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Presentación - LBRS</title>
     <!-- Links -->
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+    <!-- ICONS -->
     <script src="https://kit.fontawesome.com/d2f58e910d.js" crossorigin="anonymous"></script>
-
-    <title>Presentación - LBRS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@9.3.2_swiper-bundle.min.css">
+    <!-- Iconos footer -->
+    <script src="https://kit.fontawesome.com/5e09b964dd.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -23,7 +28,7 @@
                     <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                     <ul>
                         <li><a href="">Inicio</a></li>
-                        <li><a href="">Sobre Mi</a></li>
+                        <li><a href="./pages/sobre-mi.html">Sobre Mi</a></li>
                         <li><a href="">Servicios</a></li>
                         <li><a href="">Reservá turno</a></li>
                     </ul>
@@ -36,6 +41,9 @@
             <a href="" class="hero-btn">Sobre Mi</a>
         </div>
         </section>
+        
+    </header>
+    <main>
         <!-- FILOSOFIA -->
         <section class="filosofia">
             <h1>Filosofia</h1>
@@ -61,9 +69,98 @@
                 </div>
             </div>
         </section>
-    </header>
-    <main></main>
-    <footer></footer>
+
+        <!-- Testimonios -->
+        <section class="testimonios">
+            
+            <div class="slide-container">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="/images/images/emiliano.png" alt="testimonio1" class="card-image">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">Emiliano Oviedo</h2>
+                                <p class="description">"Belén ha transformado mi forma de aprender inglés. Sus clases dinámicas y prácticas han hecho que mejore mi fluidez y confianza en el idioma. ¡Estoy encantado con su enfoque!"</p>
+                                
+                                <button class="button">Ver más</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="/images/images/carlos.png" alt="testimonio2" class="card-image">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">Carlos Tacca</h2>
+                                <p class="description">"Belén es una profesora excepcional. Su pasión por enseñar inglés se refleja en cada lección. Me siento motivado y respaldado en mi progreso gracias a su apoyo constante."</p>
+                                
+                                <button class="button">Ver más</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="/images/images/insua.png" alt="testimonio3" class="card-image">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">Ruben Insua</h2>
+                                <p class="description">"Gracias a Belén, ahora puedo comunicarme en inglés sin miedo. Su metodología centrada en la conversación me ha permitido adquirir habilidades lingüísticas de manera rápida y efectiva. ¡La recomendaría a cualquiera!"</p>
+                                
+                                <button class="button">Ver más</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                        <a href="./index.html">
+                        <img src="../images/encabezado/Logo.png" alt="logo de LBRS">
+                    </a> 
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Sobre Mi</h2>
+                <p>¡Hola! Soy Belén y soy profesora de inglés egresada del ISP Dr. Joaquín V. González. </p>
+                <p>Llevo más de cuatro años en el mundo de la enseñanza (formal y no formal) del idioma inglés. En mi perfil como profe se destacan mi pasión por la lingüística y mi lado techie.</p>
+                <p>Considero importante que mis alumnos exploren el idioma y su uso real en profundidad, y que puedan combinarlo con distntos recursos tecnológicos, tan necesarios en el mundo de hoy.</p>
+                
+            </div>
+            <div class="box">
+                <h2>Seguime!</h2>
+                <div class="red-social">
+                    <a href="https://www.instagram.com/brs_english/" class="fa fa-instagram"></a>
+                    <a href="https://www.linkedin.com/in/belenrodriguezsoto/" class="fa fa-linkedin"></a>
+                    <a href="https://api.whatsapp.com/send?phone=1152600965&text=Hola%20Bel%C3%A9n,%20quisiera%20saber.." class="fa fa-whatsapp"></a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Belen Rodriguez Soto</b> - Todos los Derechos Reservados</small>
+        </div>
+    </footer>
 
     <!-- JAVASCRIPT FOR TOGGLE MENU -->
     <script>
@@ -75,5 +172,11 @@
             navLinks.style.right = "-200px";
         }
     </script>
+    <!-- bootstrap JS script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+   <!-- Swiper JS -->
+   <script src="js/cdn.jsdelivr.net_npm_swiper@9.3.2_swiper-bundle.min.js"></script>
+   <!-- JAVASCRIPT -->
+   <script src="js/script.js"></script>
 </body>
 </html>
