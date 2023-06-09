@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presentación - LBRS</title>
+    
     <!-- Links -->
     <!-- LOGICON -->
     <link rel="icon" href="../images/encabezado/LogoICO.ico" type="ico" sizes="24px">
@@ -30,50 +31,67 @@
                 <div class="nav-links" id="navLinks">
                     <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="/index.html">Inicio</a></li>
                         <li><a href="./sobre-mi.html">Sobre Mi</a></li>
-                        <li><a href="./reservar-turno.html">Reservá turno</a></li>
+                        <li><a href="">Reservá turno</a></li>
                     </ul>
                 </div>
                 <i class="fa-solid fa-bars" onclick="showMenu()"></i>
             </nav>
-        <div class="text-box">
-            <h1>Hola, soy Belén</h1>
-            <p>A continuación, te presentaré un breve vistazo a mi experiencia y formación como profesora de inglés. Conoceras mi trayectoria laboral y mis estudios en este campo, que me han permitido adquirir los conocimientos necesarios para brindar una educación de calidad y eficaz.</p>
-            <a href="/index.html" class="hero-btn">Vovler al Inicio</a>
-        </div>
         </section>
         
     </header>
     <main>
-        <!-- FILOSOFIA -->
-       <section class="experiencia">
-                <h1>Experiencias Adquiridas</h1>
-                <p>Aca abajo te muestro un poco de mi experiencia como profesora, mis estudios y mi constante aprendizaje</p>
+        <section id="formulario">
+            <div class="contactForm">           
+                    <div class="form">
+                        <div class="texto">
+                            <h2>Reserva tu turno!</h2>
+                            <p>Por favor, completa la siguiente información nombre, email, servicio y disponibilidad horaria. Una vez que reciba tus detalles, me contactare con vos para confirmar la disponibilidad de horarios y reservar tu turno. ¡Aprecio mucho tu interés en mis servicios y espero poder atenderte pronto! Si tenes alguna pregunta adicional, no dudes en consultarme.</p>
     
-                <div class="row">
-                    <div class="exp-col">
-                        <a href="http://institutojvgonzalez.buenosaires.edu.ar/"><img src="../images/images/background.jpg" alt="graduada"></a>
-                        <h3>Recibida</h3>
-                        <p>Me gradué del Instituto Joaquín V. González a fines de 2022. Con una sólida formación académica en el campo de la enseñanza del idioma inglés, adquirí habilidades pedagógicas avanzadas y conocimientos actualizados sobre las metodologías de enseñanza más efectivas. Mi formación en el prestigioso Instituto Joaquín V. González me ha preparado para ofrecer una educación de calidad y adaptada a las necesidades de sus estudiantes.</p>
+                        </div>
+                        <form action="">
+                            <div class="inputBox">
+                                <label for="">Tu nombre</label>
+                                <input type="text" placeholder="Nombre...">
+                            </div>
+    
+                            <div class="inputBox">
+                                <label for="">Tu email</label>
+                                <input type="text" placeholder="Email...">
+                            </div>
+    
+                            <div class="inputBox">
+                                <label for="">Tu disponibilidad y servicio</label>
+                                <textarea name="" id="" cols="30" rows="5" placeholder="Quisiera el servicio ... y mi disponibilidad horaria es..."></textarea>
+                            </div>
+                            <input type="submit" value="Reservar"/>
+                        </form>
                     </div>
-                    <div class="exp-col">
-                        <a href="http://institutojvgonzalez.buenosaires.edu.ar/"><img src="../images/images/Testimonio3.png" alt="adscripta"></a>
-                        <h3>Adscripción</h3>
-                        <p>Me desempeño como ayudante ad-honorem de la cátedra de "Introducción a la Lingüística" del Prof. Sergio Rodríguez Ramos. Mis tareas incluyen preparación y dictado de clases pactadas previamente, búsqueda y armado de material de cátedra y actividades. Para ingresar al mismo, di y aprobé mi clase de admisión frente a un jurado conformado por la junta departamental. A su término obtendré el Certificado de Especialización en la asignatura.</p>
+                    <div class="info">
+                        <div class="imgBox">
+                            <img src="../images/images/pic-reserva-turno.png" alt="">
+                        </div>
+                        <div class="textBox">
+                            <div class="infoContact">
+                                <ion-icon name="map"></ion-icon> <p>Parque Chacabuco, C1424, CABA</p>
+                            </div>
+                            <div class="infoContact">
+                                <ion-icon name="call"></ion-icon> <p>+54 9 1152600965</p>                 
+                            </div>
+                            <div class="infoContact">
+                                <ion-icon name="mail"></ion-icon> <p>lbelen.soto@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="rrss">
+                            <a href="https://www.instagram.com/brs_english"><ion-icon name="logo-instagram"></ion-icon></a>
+                            <a href="https://www.linkedin.com/in/belenrodriguezsoto/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                            <a href="https://api.whatsapp.com/send?phone=1152600965&text=Hola%20Bel%C3%A9n,%20quisiera%20saber.."><ion-icon name="logo-whatsapp"></ion-icon></a>
+    
+                        </div>
                     </div>
-                    <div class="exp-col">
-                        <a href="https://stclarescenter.com.ar/ingles/"><img src="../images/images/st clares.png" alt="trabajo1"></a>
-                        <h3>Instituto St. Clare´s</h3>
-                        <p>Actualmente trabajo en el Instituto St. Clare´s, donde tengo dos roles: auxiliar de TIC (Asistencia virtual y presencial, mantenimiento y actualización de dispositivos, gestión de espacios colaborativos de almacenamiento y capacitación del personal) y profesora de curso de Ingles en todos los niveles.</p>
-                    </div>
-                    <div class="exp-col">
-                        <a href="https://drive.google.com/file/d/1jpHQbaL7mK35Rmbk4QYckOwgTAABL76G/view"><img src="../images/images/All Method.png" alt="certificada"></a>
-                        <h3>Certificaciones</h3>
-                        <p>Además, tengo licencia certificada de "ALL Methods" llamada "ALL English for babies", la cual me permite trabajar metodicamente con bebes para la adquisicion de la lengua extranjera en los primeros años de vida, logrando asi una mejor estructura de la lengua.</p>
-                    </div>
-                </div>
-        </section>
+            </div>
+        </section>  
     </main>
     <footer class="pie-pagina">
         <div class="grupo-1">

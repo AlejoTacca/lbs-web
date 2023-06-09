@@ -414,4 +414,74 @@ display: none;
     
     }
 }
+/* SOBRE MI MAIN */
+/* PILARES */
+.experiencia{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-top: 50px;
+    border-bottom: 1px solid #8C4C27;
+}
+.experiencia h1{
+    color: #733C1D;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Caveat', cursive;
+    text-decoration: underline;
+}
+.experiencia p{
+    color: #8C4C27;
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 22px;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.exp-col{
+    flex-basis: 31%;
+    background-color: #733C1D;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.exp-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+  }
+  .experiencia .exp-col img{
+    width: 450px;
+    height: 350px;
+  }
+.experiencia .exp-col h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0px;
+    font-family: 'Caveat', cursive;
+    color: white;
+}
+.experiencia .exp-col p{
+    color: #fff;
+    font-weight: 250;
+}
+.experiencia .exp-col p{
+    color: #fff;
+    font-weight: 250;
+}
+@media (max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+    .experiencia .exp-col img{
+        display: none;
+    }
 
+}
